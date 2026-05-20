@@ -1,20 +1,124 @@
-<<<<<<< HEAD
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Career Tracker Platform
 
-Currently, two official plugins are available:
+A modern Career & Government Opportunity Tracking Platform built using React, Vite, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### Career Management
+- Company tracking
+- Application status management
+- Search and filter applications
+- Career page redirection
+- Interview tracking
+- Application analytics
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Government & PSU Preparation
+- Kerala PSC tracking
+- SSC, UPSC, RRB, IBPS sections
+- PSU opportunities
+- Upcoming deadlines
+- Notification system
 
-## Expanding the ESLint configuration
+### Analytics Dashboard
+- Application statistics
+- Pie charts
+- Bar charts
+- Selection/rejection tracking
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Career-Tracker
->>>>>>> 1d09e716d2f2d2fc079c2e4f89a56859233d593e
+### MCQ Test System
+- Technical MCQs
+- Government exam MCQs
+- Score calculation
+- Interactive UI
+
+### Mock Interview System
+- HR interview questions
+- Technical interview preparation
+- Answer recording system
+
+## Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Chart.js
+- React Icons
+
+## Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── Sidebar.jsx
+│   ├── CompanyCard.jsx
+│
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Companies.jsx
+│   ├── Applications.jsx
+│   ├── GovtExams.jsx
+│   ├── Analytics.jsx
+│   ├── MCQ.jsx
+│   ├── MockInterview.jsx
+│
+├── data/
+│   ├── companies.js
+│   ├── govtExams.js
+│   ├── deadlines.js
+│   ├── notifications.js
+│
+├── App.jsx
+├── main.jsx
+````
+
+## Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/anzilmthajudheen/Career-Tracker.git
+```
+
+Go to project folder:
+
+```bash
+cd Career-Tracker
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+## Deployment
+
+This project is deployed using Vercel.
+
+## Future Enhancements
+
+* AI Resume Analyzer
+* AI Interviewer
+* Firebase Authentication
+* Cloud Database
+* Daily Planner
+* Skill Tracker
+* Dark Mode
+
+## Author
+
+Anzil M Thajudheen
+
+GitHub:
+[https://github.com/anzilmthajudheen](https://github.com/anzilmthajudheen)
+
+````
